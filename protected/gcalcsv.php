@@ -8,7 +8,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 
 define('APPLICATION_NAME', 'Google Sheets API PHP Quickstart');
 define('CREDENTIALS_PATH', __DIR__ . '/data/sheets.googleapis.com-php-quickstart.json');
-define('CLIENT_SECRET_PATH', __DIR__ . '/client_secret.json');
+define('CLIENT_SECRET_PATH', __DIR__ . '/data/client_secret.json');
 // If modifying these scopes, delete your previously saved credentials
 // at ~/.credentials/sheets.googleapis.com-php-quickstart.json
 define('SCOPES', implode(' ', array(
